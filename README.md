@@ -1,2 +1,9 @@
 # DSSI_Fork
-My version of the [Dark Souls Sound Inserter](https://www.nexusmods.com/darksouls/mods/1193); 
+My version of the [Dark Souls Sound Inserter](https://www.nexusmods.com/darksouls/mods/1193)!
+
+Basically everything here works the same, but I have many grievances with the original mod. In particular, I am making this version to fix three issues;
+1. [Completed] Adding transition points is annoying - instead, add them for every 3s (similar to base game) starting at the specified time, truncated by file length.
+2. Fix window resizing -  it resizes, but is not readable...
+3. Fix `error creating dummy .fsb file` issue; not sure what causes this, believe it is caused by some sort of thread deadlock...
+4. Update to use newer distributions & dependencies
+5. Whatever else...
